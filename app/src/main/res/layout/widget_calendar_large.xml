@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_large_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_card"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header phần trên: Dương lịch & Âm lịch song song -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/widget_large_day_of_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thứ Tư, 23 tháng 9"
+                android:textColor="@color/widget_text_secondary"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widget_large_solar_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23"
+                android:textColor="@color/widget_primary"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widget_large_solar_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Năm 2026 (Dương lịch)"
+                android:textColor="@color/widget_text_primary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/widget_large_lunar_full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày 13 tháng 8"
+                android:textColor="@color/widget_gold"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widget_large_can_chi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Giáp Thìn - Bính Thân"
+                android:textColor="@color/widget_text_secondary"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/widget_large_hoang_dao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="★ Ngày Hoàng Đạo (Tốt)"
+                android:textColor="@color/widget_primary"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widget_large_tiet_khi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Tiết: Thu Phân"
+                android:textColor="@color/widget_text_secondary"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="10dp"
+        android:background="@color/widget_divider" />
+
+    <!-- Mục Sự kiện & Ngày lễ sắp tới -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SỰ KIỆN &amp; LỄ TẾT SẮP TỚI"
+        android:textColor="@color/widget_primary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/widget_badge_red"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <!-- Sự kiện 1 -->
+        <TextView
+            android:id="@+id/widget_large_event1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• [2 ngày nữa] Tết Trung Thu (15/08 ÂL)"
+            android:textColor="@color/widget_holiday"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <!-- Sự kiện 2 -->
+        <TextView
+            android:id="@+id/widget_large_event2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="• [17 ngày nữa] Mùng 1 đầu tháng (01/09 ÂL)"
+            android:textColor="@color/widget_text_primary"
+            android:textSize="11sp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <!-- Sự kiện 3 -->
+        <TextView
+            android:id="@+id/widget_large_event3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="• [27 ngày nữa] Ngày Phụ nữ Việt Nam (20/10)"
+            android:textColor="@color/widget_text_primary"
+            android:textSize="11sp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+</LinearLayout>

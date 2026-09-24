@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lịch Âm Dương</string>
+    <string name="widget_compact_name">Lịch Âm Dương (Nhỏ 2x2)</string>
+    <string name="widget_compact_desc">Hiển thị ngày Dương lịch và Âm lịch hiện tại nhỏ gọn.</string>
+    <string name="widget_medium_name">Lịch Âm Dương (Vừa 4x2)</string>
+    <string name="widget_medium_desc">Hiển thị ngày Dương - Âm, Can Chi và sự kiện sắp tới.</string>
+    <string name="widget_large_name">Lịch Âm Dương (Lớn 4x4)</string>
+    <string name="widget_large_desc">Hiển thị ngày Dương - Âm, Tiết khí, Hoàng đạo và 3 sự kiện / ngày lễ sắp tới.</string>
+</resources>

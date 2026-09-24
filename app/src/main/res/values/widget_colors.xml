@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_primary">#B71C1C</color>
+    <color name="widget_primary_dark">#8B0000</color>
+    <color name="widget_gold">#B8860B</color>
+    <color name="widget_gold_light">#FFF9E6</color>
+    <color name="widget_surface">#FFFFFF</color>
+    <color name="widget_text_primary">#1A1A1A</color>
+    <color name="widget_text_secondary">#555555</color>
+    <color name="widget_divider">#E0E0E0</color>
+    <color name="widget_holiday">#C62828</color>
+    <color name="widget_badge_bg">#FFEBEE</color>
+</resources>
